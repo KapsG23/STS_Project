@@ -1,0 +1,1335 @@
+{
+  "hello": {
+    "type": "video",
+    "path": "dataset/words/hello.mp4"
+  },
+
+  "goodbye": {
+    "type": "video",
+    "path": "dataset/words/goodbye.mp4"
+  },
+
+  "please": {
+    "type": "video",
+    "path": "dataset/words/please.mp4"
+  },
+
+  "thank_you": {
+    "type": "video",
+    "path": "dataset/words/thank_you.mp4"
+  },
+
+  "sorry": {
+    "type": "video",
+    "path": "dataset/words/sorry.mp4"
+  },
+
+  "yes": {
+    "type": "video",
+    "path": "dataset/words/yes.mp4"
+  },
+
+  "no": {
+    "type": "video",
+    "path": "dataset/words/no.mp4"
+  },
+
+  "ok": {
+    "type": "video",
+    "path": "dataset/words/ok.mp4"
+  },
+
+  "fine": {
+    "type": "video",
+    "path": "dataset/words/fine.mp4"
+  },
+
+  "good": {
+    "type": "video",
+    "path": "dataset/words/good.mp4"
+  },
+
+  "bad": {
+    "type": "video",
+    "path": "dataset/words/bad.mp4"
+  },
+
+  "happy": {
+    "type": "video",
+    "path": "dataset/words/happy.mp4"
+  },
+
+  "sad": {
+    "type": "video",
+    "path": "dataset/words/sad.mp4"
+  },
+
+  "angry": {
+    "type": "video",
+    "path": "dataset/words/angry.mp4"
+  },
+
+  "scared": {
+    "type": "video",
+    "path": "dataset/words/scared.mp4"
+  },
+
+  "tired": {
+    "type": "video",
+    "path": "dataset/words/tired.mp4"
+  },
+
+  "hungry": {
+    "type": "video",
+    "path": "dataset/words/hungry.mp4"
+  },
+
+  "thirsty": {
+    "type": "video",
+    "path": "dataset/words/thirsty.mp4"
+  },
+
+  "excited": {
+    "type": "video",
+    "path": "dataset/words/excited.mp4"
+  },
+
+  "love": {
+    "type": "video",
+    "path": "dataset/words/love.mp4"
+  },
+
+  "like": {
+    "type": "video",
+    "path": "dataset/words/like.mp4"
+  },
+
+  "want": {
+    "type": "video",
+    "path": "dataset/words/want.mp4"
+  },
+
+  "need": {
+    "type": "video",
+    "path": "dataset/words/need.mp4"
+  },
+
+  "help": {
+    "type": "video",
+    "path": "dataset/words/help.mp4"
+  },
+
+  "understand": {
+    "type": "video",
+    "path": "dataset/words/understand.mp4"
+  },
+
+  "know": {
+    "type": "video",
+    "path": "dataset/words/know.mp4"
+  },
+
+  "remember": {
+    "type": "video",
+    "path": "dataset/words/remember.mp4"
+  },
+
+  "forget": {
+    "type": "video",
+    "path": "dataset/words/forget.mp4"
+  },
+
+  "think": {
+    "type": "video",
+    "path": "dataset/words/think.mp4"
+  },
+
+  "hear": {
+    "type": "video",
+    "path": "dataset/words/hear.mp4"
+  },
+
+  "listen": {
+    "type": "video",
+    "path": "dataset/words/listen.mp4"
+  },
+
+  "talk": {
+    "type": "video",
+    "path": "dataset/words/talk.mp4"
+  },
+
+  "speak": {
+    "type": "video",
+    "path": "dataset/words/speak.mp4"
+  },
+
+  "tell": {
+    "type": "video",
+    "path": "dataset/words/tell.mp4"
+  },
+
+  "ask": {
+    "type": "video",
+    "path": "dataset/words/ask.mp4"
+  },
+
+  "answer": {
+    "type": "video",
+    "path": "dataset/words/answer.mp4"
+  },
+
+  "say": {
+    "type": "video",
+    "path": "dataset/words/say.mp4"
+  },
+
+  "read": {
+    "type": "video",
+    "path": "dataset/words/read.mp4"
+  },
+
+  "write": {
+    "type": "video",
+    "path": "dataset/words/write.mp4"
+  },
+
+  "study": {
+    "type": "video",
+    "path": "dataset/words/study.mp4"
+  },
+
+  "learn": {
+    "type": "video",
+    "path": "dataset/words/learn.mp4"
+  },
+
+  "teach": {
+    "type": "video",
+    "path": "dataset/words/teach.mp4"
+  },
+
+  "work": {
+    "type": "video",
+    "path": "dataset/words/work.mp4"
+  },
+
+  "play": {
+    "type": "video",
+    "path": "dataset/words/play.mp4"
+  },
+
+  "watch": {
+    "type": "video",
+    "path": "dataset/words/watch.mp4"
+  },
+
+  "go": {
+    "type": "video",
+    "path": "dataset/words/go.mp4"
+  },
+
+  "come": {
+    "type": "video",
+    "path": "dataset/words/come.mp4"
+  },
+
+  "walk": {
+    "type": "video",
+    "path": "dataset/words/walk.mp4"
+  },
+
+  "run": {
+    "type": "video",
+    "path": "dataset/words/run.mp4"
+  },
+  "sit": {
+    "type": "video",
+    "path": "dataset/words/sit.mp4"
+  },
+
+  "stand": {
+    "type": "video",
+    "path": "dataset/words/stand.mp4"
+  },
+
+  "wait": {
+    "type": "video",
+    "path": "dataset/words/wait.mp4"
+  },
+
+  "meet": {
+    "type": "video",
+    "path": "dataset/words/meet.mp4"
+  },
+
+  "visit": {
+    "type": "video",
+    "path": "dataset/words/visit.mp4"
+  },
+
+  "travel": {
+    "type": "video",
+    "path": "dataset/words/travel.mp4"
+  },
+
+  "drive": {
+    "type": "video",
+    "path": "dataset/words/drive.mp4"
+  },
+
+  "buy": {
+    "type": "video",
+    "path": "dataset/words/buy.mp4"
+  },
+
+  "give": {
+    "type": "video",
+    "path": "dataset/words/give.mp4"
+  },
+
+  "take": {
+    "type": "video",
+    "path": "dataset/words/take.mp4"
+  },
+
+  "bring": {
+    "type": "video",
+    "path": "dataset/words/bring.mp4"
+  },
+
+  "show": {
+    "type": "video",
+    "path": "dataset/words/show.mp4"
+  },
+
+  "call": {
+    "type": "video",
+    "path": "dataset/words/call.mp4"
+  },
+
+  "use": {
+    "type": "video",
+    "path": "dataset/words/use.mp4"
+  },
+
+  "make": {
+    "type": "video",
+    "path": "dataset/words/make.mp4"
+  },
+
+  "change": {
+    "type": "video",
+    "path": "dataset/words/change.mp4"
+  },
+
+  "choose": {
+    "type": "video",
+    "path": "dataset/words/choose.mp4"
+  },
+
+  "join": {
+    "type": "video",
+    "path": "dataset/words/join.mp4"
+  },
+
+  "leave": {
+    "type": "video",
+    "path": "dataset/words/leave.mp4"
+  },
+
+  "stay": {
+    "type": "video",
+    "path": "dataset/words/stay.mp4"
+  },
+
+  "find": {
+    "type": "video",
+    "path": "dataset/words/find.mp4"
+  },
+
+  "lose": {
+    "type": "video",
+    "path": "dataset/words/lose.mp4"
+  },
+
+  "finish": {
+    "type": "video",
+    "path": "dataset/words/finish.mp4"
+  },
+
+  "stop": {
+    "type": "video",
+    "path": "dataset/words/stop.mp4"
+  },
+
+  "start": {
+    "type": "video",
+    "path": "dataset/words/start.mp4"
+  },
+
+  "move": {
+    "type": "video",
+    "path": "dataset/words/move.mp4"
+  },
+
+  "open": {
+    "type": "video",
+    "path": "dataset/words/open.mp4"
+  },
+
+  "close": {
+    "type": "video",
+    "path": "dataset/words/close.mp4"
+  },
+
+  "drink": {
+    "type": "video",
+    "path": "dataset/words/drink.mp4"
+  },
+
+  "eat": {
+    "type": "video",
+    "path": "dataset/words/eat.mp4"
+  },
+
+  "cook": {
+    "type": "video",
+    "path": "dataset/words/cook.mp4"
+  },
+
+  "sleep": {
+    "type": "video",
+    "path": "dataset/words/sleep.mp4"
+  },
+
+  "wash": {
+    "type": "video",
+    "path": "dataset/words/wash.mp4"
+  },
+
+  "home": {
+    "type": "video",
+    "path": "dataset/words/home.mp4"
+  },
+
+  "house": {
+    "type": "video",
+    "path": "dataset/words/house.mp4"
+  },
+
+  "room": {
+    "type": "video",
+    "path": "dataset/words/room.mp4"
+  },
+
+  "bed": {
+    "type": "video",
+    "path": "dataset/words/bed.mp4"
+  },
+
+  "bathroom": {
+    "type": "video",
+    "path": "dataset/words/bathroom.mp4"
+  },
+
+  "kitchen": {
+    "type": "video",
+    "path": "dataset/words/kitchen.mp4"
+  },
+
+  "school": {
+    "type": "video",
+    "path": "dataset/words/school.mp4"
+  },
+
+  "college": {
+    "type": "video",
+    "path": "dataset/words/college.mp4"
+  },
+
+  "university": {
+    "type": "video",
+    "path": "dataset/words/university.mp4"
+  },
+
+  "class": {
+    "type": "video",
+    "path": "dataset/words/class.mp4"
+  },
+
+  "teacher": {
+    "type": "video",
+    "path": "dataset/words/teacher.mp4"
+  },
+
+  "student": {
+    "type": "video",
+    "path": "dataset/words/student.mp4"
+  },
+
+  "test": {
+    "type": "video",
+    "path": "dataset/words/test.mp4"
+  },
+
+  "homework": {
+    "type": "video",
+    "path": "dataset/words/homework.mp4"
+  },
+
+  "project": {
+    "type": "video",
+    "path": "dataset/words/project.mp4"
+  },
+
+  "meeting": {
+    "type": "video",
+    "path": "dataset/words/meeting.mp4"
+  },
+
+  "office": {
+    "type": "video",
+    "path": "dataset/words/office.mp4"
+  },
+
+  "computer": {
+    "type": "video",
+    "path": "dataset/words/computer.mp4"
+  },
+
+  "laptop": {
+    "type": "video",
+    "path": "dataset/words/laptop.mp4"
+  },
+
+  "internet": {
+    "type": "video",
+    "path": "dataset/words/internet.mp4"
+  },
+
+  "email": {
+    "type": "video",
+    "path": "dataset/words/email.mp4"
+  },
+
+  "phone": {
+    "type": "video",
+    "path": "dataset/words/phone.mp4"
+  },
+
+  "message": {
+    "type": "video",
+    "path": "dataset/words/message.mp4"
+  },
+
+  "technology": {
+    "type": "video",
+    "path": "dataset/words/technology.mp4"
+  },
+
+  "science": {
+    "type": "video",
+    "path": "dataset/words/science.mp4"
+  },
+
+  "library": {
+    "type": "video",
+    "path": "dataset/words/library.mp4"
+  },
+
+  "book": {
+    "type": "video",
+    "path": "dataset/words/book.mp4"
+  },
+
+  "paper": {
+    "type": "video",
+    "path": "dataset/words/paper.mp4"
+  },
+
+  "language": {
+    "type": "video",
+    "path": "dataset/words/language.mp4"
+  },
+
+  "sign_language": {
+    "type": "video",
+    "path": "dataset/words/sign_language.mp4"
+  },
+
+  "asl": {
+    "type": "video",
+    "path": "dataset/words/asl.mp4"
+  },
+
+  "family": {
+    "type": "video",
+    "path": "dataset/words/family.mp4"
+  },
+
+  "mother": {
+    "type": "video",
+    "path": "dataset/words/mother.mp4"
+  },
+
+  "father": {
+    "type": "video",
+    "path": "dataset/words/father.mp4"
+  },
+
+  "brother": {
+    "type": "video",
+    "path": "dataset/words/brother.mp4"
+  },
+
+  "sister": {
+    "type": "video",
+    "path": "dataset/words/sister.mp4"
+  },
+
+  "son": {
+    "type": "video",
+    "path": "dataset/words/son.mp4"
+  },
+
+  "daughter": {
+    "type": "video",
+    "path": "dataset/words/daughter.mp4"
+  },
+
+  "wife": {
+    "type": "video",
+    "path": "dataset/words/wife.mp4"
+  },
+
+  "husband": {
+    "type": "video",
+    "path": "dataset/words/husband.mp4"
+  },
+
+  "child": {
+    "type": "video",
+    "path": "dataset/words/child.mp4"
+  },
+
+  "baby": {
+    "type": "video",
+    "path": "dataset/words/baby.mp4"
+  },
+
+  "grandmother": {
+    "type": "video",
+    "path": "dataset/words/grandmother.mp4"
+  },
+
+  "grandfather": {
+    "type": "video",
+    "path": "dataset/words/grandfather.mp4"
+  },
+
+  "uncle": {
+    "type": "video",
+    "path": "dataset/words/uncle.mp4"
+  },
+
+  "aunt": {
+    "type": "video",
+    "path": "dataset/words/aunt.mp4"
+  },
+
+  "cousin": {
+    "type": "video",
+    "path": "dataset/words/cousin.mp4"
+  },
+
+  "friend": {
+    "type": "video",
+    "path": "dataset/words/friend.mp4"
+  },
+
+  "neighbor": {
+    "type": "video",
+    "path": "dataset/words/neighbor.mp4"
+  },
+
+  "boy": {
+    "type": "video",
+    "path": "dataset/words/boy.mp4"
+  },
+
+  "girl": {
+    "type": "video",
+    "path": "dataset/words/girl.mp4"
+  },
+
+  "man": {
+    "type": "video",
+    "path": "dataset/words/man.mp4"
+  },
+
+  "woman": {
+    "type": "video",
+    "path": "dataset/words/woman.mp4"
+  },
+
+  "person": {
+    "type": "video",
+    "path": "dataset/words/person.mp4"
+  },
+
+  "people": {
+    "type": "video",
+    "path": "dataset/words/people.mp4"
+  },
+
+  "doctor": {
+    "type": "video",
+    "path": "dataset/words/doctor.mp4"
+  },
+
+  "nurse": {
+    "type": "video",
+    "path": "dataset/words/nurse.mp4"
+  },
+
+  "hospital": {
+    "type": "video",
+    "path": "dataset/words/hospital.mp4"
+  },
+
+  "medicine": {
+    "type": "video",
+    "path": "dataset/words/medicine.mp4"
+  },
+
+  "patient": {
+    "type": "video",
+    "path": "dataset/words/patient.mp4"
+  },
+
+  "sick": {
+    "type": "video",
+    "path": "dataset/words/sick.mp4"
+  },
+
+  "pain": {
+    "type": "video",
+    "path": "dataset/words/pain.mp4"
+  },
+
+  "headache": {
+    "type": "video",
+    "path": "dataset/words/headache.mp4"
+  },
+
+  "cough": {
+    "type": "video",
+    "path": "dataset/words/cough.mp4"
+  },
+
+  "food": {
+    "type": "video",
+    "path": "dataset/words/food.mp4"
+  },
+
+  "water": {
+    "type": "video",
+    "path": "dataset/words/water.mp4"
+  },
+
+  "tea": {
+    "type": "video",
+    "path": "dataset/words/tea.mp4"
+  },
+
+  "coffee": {
+    "type": "video",
+    "path": "dataset/words/coffee.mp4"
+  },
+
+  "milk": {
+    "type": "video",
+    "path": "dataset/words/milk.mp4"
+  },
+
+  "bread": {
+    "type": "video",
+    "path": "dataset/words/bread.mp4"
+  },
+
+  "pizza": {
+    "type": "video",
+    "path": "dataset/words/pizza.mp4"
+  },
+
+  "sandwich": {
+    "type": "video",
+    "path": "dataset/words/sandwich.mp4"
+  },
+
+  "fruit": {
+    "type": "video",
+    "path": "dataset/words/fruit.mp4"
+  },
+
+  "vegetable": {
+    "type": "video",
+    "path": "dataset/words/vegetable.mp4"
+  },
+
+  "apple": {
+    "type": "video",
+    "path": "dataset/words/apple.mp4"
+  },
+
+  "banana": {
+    "type": "video",
+    "path": "dataset/words/banana.mp4"
+  },
+
+  "orange": {
+    "type": "video",
+    "path": "dataset/words/orange.mp4"
+  },
+
+  "chicken": {
+    "type": "video",
+    "path": "dataset/words/chicken.mp4"
+  },
+
+  "egg": {
+    "type": "video",
+    "path": "dataset/words/egg.mp4"
+  },
+
+  "meat": {
+    "type": "video",
+    "path": "dataset/words/meat.mp4"
+  },
+
+  "salad": {
+    "type": "video",
+    "path": "dataset/words/salad.mp4"
+  },
+
+  "soup": {
+    "type": "video",
+    "path": "dataset/words/soup.mp4"
+  },
+
+  "potato": {
+    "type": "video",
+    "path": "dataset/words/potato.mp4"
+  },
+
+  "tomato": {
+    "type": "video",
+    "path": "dataset/words/tomato.mp4"
+  },
+
+  "cake": {
+    "type": "video",
+    "path": "dataset/words/cake.mp4"
+  },
+
+  "restaurant": {
+    "type": "video",
+    "path": "dataset/words/restaurant.mp4"
+  },
+
+  "shop": {
+    "type": "video",
+    "path": "dataset/words/shop.mp4"
+  },
+
+  "store": {
+    "type": "video",
+    "path": "dataset/words/store.mp4"
+  },
+
+  "money": {
+    "type": "video",
+    "path": "dataset/words/money.mp4"
+  },
+
+  "price": {
+    "type": "video",
+    "path": "dataset/words/price.mp4"
+  },
+
+  "pay": {
+    "type": "video",
+    "path": "dataset/words/pay.mp4"
+  },
+
+  "ticket": {
+    "type": "video",
+    "path": "dataset/words/ticket.mp4"
+  },
+
+  "car": {
+    "type": "video",
+    "path": "dataset/words/car.mp4"
+  },
+
+  "bus": {
+    "type": "video",
+    "path": "dataset/words/bus.mp4"
+  },
+
+  "train": {
+    "type": "video",
+    "path": "dataset/words/train.mp4"
+  },
+
+  "airplane": {
+    "type": "video",
+    "path": "dataset/words/airplane.mp4"
+  },
+
+  "road": {
+    "type": "video",
+    "path": "dataset/words/road.mp4"
+  },
+
+  "street": {
+    "type": "video",
+    "path": "dataset/words/street.mp4"
+  },
+
+  "city": {
+    "type": "video",
+    "path": "dataset/words/city.mp4"
+  },
+
+  "town": {
+    "type": "video",
+    "path": "dataset/words/town.mp4"
+  },
+
+  "country": {
+    "type": "video",
+    "path": "dataset/words/country.mp4"
+  },
+
+  "weather": {
+    "type": "video",
+    "path": "dataset/words/weather.mp4"
+  },
+
+  "rain": {
+    "type": "video",
+    "path": "dataset/words/rain.mp4"
+  },
+
+  "snow": {
+    "type": "video",
+    "path": "dataset/words/snow.mp4"
+  },
+
+  "summer": {
+    "type": "video",
+    "path": "dataset/words/summer.mp4"
+  },
+
+  "winter": {
+    "type": "video",
+    "path": "dataset/words/winter.mp4"
+  },
+
+  "morning": {
+    "type": "video",
+    "path": "dataset/words/morning.mp4"
+  },
+
+  "afternoon": {
+    "type": "video",
+    "path": "dataset/words/afternoon.mp4"
+  },
+
+  "evening": {
+    "type": "video",
+    "path": "dataset/words/evening.mp4"
+  },
+
+  "night": {
+    "type": "video",
+    "path": "dataset/words/night.mp4"
+  },
+
+  "today": {
+    "type": "video",
+    "path": "dataset/words/today.mp4"
+  },
+
+  "tomorrow": {
+    "type": "video",
+    "path": "dataset/words/tomorrow.mp4"
+  },
+
+  "yesterday": {
+    "type": "video",
+    "path": "dataset/words/yesterday.mp4"
+  },
+
+  "week": {
+    "type": "video",
+    "path": "dataset/words/week.mp4"
+  },
+
+  "month": {
+    "type": "video",
+    "path": "dataset/words/month.mp4"
+  },
+
+  "year": {
+    "type": "video",
+    "path": "dataset/words/year.mp4"
+  },
+
+  "hour": {
+    "type": "video",
+    "path": "dataset/words/hour.mp4"
+  },
+
+  "minute": {
+    "type": "video",
+    "path": "dataset/words/minute.mp4"
+  },
+
+  "monday": {
+    "type": "video",
+    "path": "dataset/words/monday.mp4"
+  },
+
+  "tuesday": {
+    "type": "video",
+    "path": "dataset/words/tuesday.mp4"
+  },
+
+  "wednesday": {
+    "type": "video",
+    "path": "dataset/words/wednesday.mp4"
+  },
+
+  "thursday": {
+    "type": "video",
+    "path": "dataset/words/thursday.mp4"
+  },
+
+  "friday": {
+    "type": "video",
+    "path": "dataset/words/friday.mp4"
+  },
+
+  "saturday": {
+    "type": "video",
+    "path": "dataset/words/saturday.mp4"
+  },
+
+  "sunday": {
+    "type": "video",
+    "path": "dataset/words/sunday.mp4"
+  },
+
+  "what": {
+    "type": "video",
+    "path": "dataset/words/what.mp4"
+  },
+
+  "where": {
+    "type": "video",
+    "path": "dataset/words/where.mp4"
+  },
+
+  "when": {
+    "type": "video",
+    "path": "dataset/words/when.mp4"
+  },
+
+  "why": {
+    "type": "video",
+    "path": "dataset/words/why.mp4"
+  },
+
+  "who": {
+    "type": "video",
+    "path": "dataset/words/who.mp4"
+  },
+
+  "how": {
+    "type": "video",
+    "path": "dataset/words/how.mp4"
+  },
+
+  "which": {
+    "type": "video",
+    "path": "dataset/words/which.mp4"
+  },
+
+  "because": {
+    "type": "video",
+    "path": "dataset/words/because.mp4"
+  },
+
+  "before": {
+    "type": "video",
+    "path": "dataset/words/before.mp4"
+  },
+
+  "after": {
+    "type": "video",
+    "path": "dataset/words/after.mp4"
+  },
+
+  "later": {
+    "type": "video",
+    "path": "dataset/words/later.mp4"
+  },
+
+  "now": {
+    "type": "video",
+    "path": "dataset/words/now.mp4"
+  },
+
+  "soon": {
+    "type": "video",
+    "path": "dataset/words/soon.mp4"
+  },
+
+  "always": {
+    "type": "video",
+    "path": "dataset/words/always.mp4"
+  },
+
+  "sometimes": {
+    "type": "video",
+    "path": "dataset/words/sometimes.mp4"
+  },
+
+  "often": {
+    "type": "video",
+    "path": "dataset/words/often.mp4"
+  },
+
+  "never": {
+    "type": "video",
+    "path": "dataset/words/never.mp4"
+  },
+
+  "here": {
+    "type": "video",
+    "path": "dataset/words/here.mp4"
+  },
+
+  "there": {
+    "type": "video",
+    "path": "dataset/words/there.mp4"
+  },
+
+  "inside": {
+    "type": "video",
+    "path": "dataset/words/inside.mp4"
+  },
+
+  "outside": {
+    "type": "video",
+    "path": "dataset/words/outside.mp4"
+  },
+
+  "up": {
+    "type": "video",
+    "path": "dataset/words/up.mp4"
+  },
+
+  "down": {
+    "type": "video",
+    "path": "dataset/words/down.mp4"
+  },
+
+  "left": {
+    "type": "video",
+    "path": "dataset/words/left.mp4"
+  },
+
+  "right": {
+    "type": "video",
+    "path": "dataset/words/right.mp4"
+  },
+
+  "near": {
+    "type": "video",
+    "path": "dataset/words/near.mp4"
+  },
+
+  "far": {
+    "type": "video",
+    "path": "dataset/words/far.mp4"
+  },
+
+  "big": {
+    "type": "video",
+    "path": "dataset/words/big.mp4"
+  },
+
+  "small": {
+    "type": "video",
+    "path": "dataset/words/small.mp4"
+  },
+
+  "short": {
+    "type": "video",
+    "path": "dataset/words/short.mp4"
+  },
+
+  "tall": {
+    "type": "video",
+    "path": "dataset/words/tall.mp4"
+  },
+
+  "young": {
+    "type": "video",
+    "path": "dataset/words/young.mp4"
+  },
+
+  "old": {
+    "type": "video",
+    "path": "dataset/words/old.mp4"
+  },
+
+  "new": {
+    "type": "video",
+    "path": "dataset/words/new.mp4"
+  },
+
+  "different": {
+    "type": "video",
+    "path": "dataset/words/different.mp4"
+  },
+
+  "same": {
+    "type": "video",
+    "path": "dataset/words/same.mp4"
+  },
+
+  "easy": {
+    "type": "video",
+    "path": "dataset/words/easy.mp4"
+  },
+
+  "difficult": {
+    "type": "video",
+    "path": "dataset/words/difficult.mp4"
+  },
+
+  "fast": {
+    "type": "video",
+    "path": "dataset/words/fast.mp4"
+  },
+
+  "slow": {
+    "type": "video",
+    "path": "dataset/words/slow.mp4"
+  },
+
+  "hot": {
+    "type": "video",
+    "path": "dataset/words/hot.mp4"
+  },
+
+  "cold": {
+    "type": "video",
+    "path": "dataset/words/cold.mp4"
+  },
+
+  "beautiful": {
+    "type": "video",
+    "path": "dataset/words/beautiful.mp4"
+  },
+
+  "important": {
+    "type": "video",
+    "path": "dataset/words/important.mp4"
+  },
+
+  "interesting": {
+    "type": "video",
+    "path": "dataset/words/interesting.mp4"
+  },
+
+  "strong": {
+    "type": "video",
+    "path": "dataset/words/strong.mp4"
+  },
+
+  "weak": {
+    "type": "video",
+    "path": "dataset/words/weak.mp4"
+  },
+
+  "smart": {
+    "type": "video",
+    "path": "dataset/words/smart.mp4"
+  },
+
+  "funny": {
+    "type": "video",
+    "path": "dataset/words/funny.mp4"
+  },
+
+  "quiet": {
+    "type": "video",
+    "path": "dataset/words/quiet.mp4"
+  },
+
+  "loud": {
+    "type": "video",
+    "path": "dataset/words/loud.mp4"
+  },
+
+  "clean": {
+    "type": "video",
+    "path": "dataset/words/clean.mp4"
+  },
+
+  "dirty": {
+    "type": "video",
+    "path": "dataset/words/dirty.mp4"
+  },
+
+  "black": {
+    "type": "video",
+    "path": "dataset/words/black.mp4"
+  },
+
+  "white": {
+    "type": "video",
+    "path": "dataset/words/white.mp4"
+  },
+
+  "red": {
+    "type": "video",
+    "path": "dataset/words/red.mp4"
+  },
+
+  "blue": {
+    "type": "video",
+    "path": "dataset/words/blue.mp4"
+  },
+
+  "green": {
+    "type": "video",
+    "path": "dataset/words/green.mp4"
+  },
+
+  "yellow": {
+    "type": "video",
+    "path": "dataset/words/yellow.mp4"
+  },
+
+  "brown": {
+    "type": "video",
+    "path": "dataset/words/brown.mp4"
+  }
+}
