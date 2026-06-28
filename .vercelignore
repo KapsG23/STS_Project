@@ -1,0 +1,12 @@
+.git
+.next
+node_modules
+venv
+__pycache__
+*.pyc
+assets/generated
+Extra stuff
+WLASL_v0.3.json
+videos
+.agents
+.codex
