@@ -1,34 +1,56 @@
 # Speech to ASL
 
-Modular BE project pipeline for converting spoken or typed English into ASL gloss and retrieving matching dataset signs.
+Modern Next.js app for converting spoken or typed English into ASL gloss and retrieving matching signs from the local dataset.
 
-## Pipeline
+## What It Does
 
-1. Speech-to-text adapter: Moonshine first, Vosk fallback support.
-2. Text normalization: lowercase, punctuation cleanup, whitespace cleanup.
-3. Tokenization and POS tagging.
-4. Intelligent stopword removal.
-5. Lemmatization, number handling, synonym mapping, and phrase simplification.
-6. ASL gloss conversion with deterministic ordering rules.
-7. Dataset retrieval from `dataset/words`, `dataset/alphabets`, and `dataset/numbers`.
-8. Optional video merge with MoviePy.
+1. Accepts typed text or browser microphone speech input.
+2. Normalizes and tokenizes the sentence.
+3. Removes helper words while preserving useful ASL meaning.
+4. Applies lemmatization, synonym mapping, number handling, and phrase simplification.
+5. Converts English into ASL gloss order.
+6. Retrieves matching videos from `dataset/words`.
+7. Falls back to alphabet or number images from `dataset/alphabets` and `dataset/numbers`.
 
-## Run
+## Run The Next.js App
 
-Install dependencies:
+Install frontend dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+Create a production build:
+
+```bash
+npm run build
+npm start
+```
+
+## Python CLI Backend Check
+
+The Python pipeline is still available for quick terminal verification and tests.
+
+Install Python dependencies if needed:
 
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-Start the UI:
-
-```bash
-streamlit run app.py
-```
-
-Run a quick CLI conversion:
+Run a CLI conversion:
 
 ```bash
 python app.py --text "Where is the nearest hospital?"
@@ -40,4 +62,10 @@ Run tests:
 python -m unittest discover tests
 ```
 
-The core text-to-ASL pipeline has standard-library fallbacks, so it can still convert and retrieve assets before optional NLP/STT packages are installed.
+## Deployment
+
+The app is structured for Vercel with Next.js API routes:
+
+- `app/api/convert/route.ts` converts text into ASL gloss.
+- `app/api/asset/route.ts` safely streams dataset videos/images.
+- `next.config.ts` includes the dataset in Vercel function tracing.

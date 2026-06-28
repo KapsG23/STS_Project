@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .env
 assets/generated/
+node_modules/
+.next/
+out/
+*.tsbuildinfo

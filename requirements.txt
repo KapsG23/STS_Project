@@ -6,4 +6,3 @@ moviepy
 opencv-python
 pandas
 numpy
-streamlit
