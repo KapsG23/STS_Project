@@ -160,7 +160,7 @@ textarea:focus {
 }
 
 .example-row button,
-.ghost-button {
+.record-button {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #ffffff;
@@ -169,9 +169,26 @@ textarea:focus {
 }
 
 .example-row button:hover,
-.ghost-button:hover {
+.record-button:hover {
   border-color: var(--brand);
   color: var(--brand-dark);
+}
+
+.record-button.active {
+  border-color: #b42318;
+  background: #fff1f0;
+  color: #b42318;
+  font-weight: 800;
+}
+
+.listening-banner {
+  border: 1px solid #b7e4d8;
+  border-radius: 8px;
+  background: #ecfdf7;
+  color: #115e59;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  line-height: 1.45;
 }
 
 .primary-button {

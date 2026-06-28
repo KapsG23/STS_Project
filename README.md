@@ -32,6 +32,14 @@ Open:
 http://localhost:3000
 ```
 
+Use the microphone flow:
+
+1. Open the app in Chrome or Edge.
+2. Click `Start mic`.
+3. Allow microphone permission if the browser asks.
+4. Speak your full sentence.
+5. Click `Stop and convert` to turn the transcript into ASL gloss and signs.
+
 Create a production build:
 
 ```bash

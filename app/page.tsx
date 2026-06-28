@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useMemo, useRef, useState } from "react";
 
 type SignAsset = {
   token: string;
@@ -25,21 +25,27 @@ type SpeechRecognition = {
   interimResults: boolean;
   lang: string;
   onresult: ((event: SpeechRecognitionEvent) => void) | null;
-  onerror: (() => void) | null;
+  onerror: ((event: SpeechRecognitionErrorEvent) => void) | null;
   onend: (() => void) | null;
   start: () => void;
   stop: () => void;
 };
 
 type SpeechRecognitionEvent = {
+  resultIndex: number;
   results: {
     [index: number]: {
       [index: number]: {
         transcript: string;
       };
+      isFinal: boolean;
     };
     length: number;
   };
+};
+
+type SpeechRecognitionErrorEvent = {
+  error: string;
 };
 
 const examples = [
@@ -63,6 +69,12 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
   const [error, setError] = useState("");
+  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const keepListeningRef = useRef(false);
+  const stopAndConvertRef = useRef(false);
+  const transcriptRef = useRef("");
+  const finalTranscriptRef = useRef("");
+  const restartAttemptsRef = useRef(0);
 
   const hasAssets = Boolean(result?.assets.length);
   const videoCount = useMemo(
@@ -104,6 +116,12 @@ export default function Home() {
     void convert();
   }
 
+  function stopSpeechInput() {
+    keepListeningRef.current = false;
+    stopAndConvertRef.current = true;
+    recognitionRef.current?.stop();
+  }
+
   function startSpeechInput() {
     const Recognition = window.SpeechRecognition ?? window.webkitSpeechRecognition;
     if (!Recognition) {
@@ -112,21 +130,75 @@ export default function Home() {
     }
 
     const recognition = new Recognition();
-    recognition.continuous = false;
-    recognition.interimResults = false;
+    recognition.continuous = true;
+    recognition.interimResults = true;
     recognition.lang = "en-US";
 
     recognition.onresult = (event) => {
-      const transcript = event.results[event.results.length - 1][0].transcript;
-      setText(transcript);
-      void convert(transcript);
-    };
-    recognition.onerror = () => {
-      setIsListening(false);
-      setError("I could not hear that clearly. Please try again or type the sentence.");
-    };
-    recognition.onend = () => setIsListening(false);
+      let interimTranscript = "";
 
+      for (let index = event.resultIndex; index < event.results.length; index += 1) {
+        const transcript = event.results[index][0].transcript.trim();
+        if (event.results[index].isFinal) {
+          finalTranscriptRef.current = `${finalTranscriptRef.current} ${transcript}`.trim();
+        } else {
+          interimTranscript = `${interimTranscript} ${transcript}`.trim();
+        }
+      }
+
+      const combinedTranscript = `${finalTranscriptRef.current} ${interimTranscript}`.trim();
+      transcriptRef.current = combinedTranscript;
+      restartAttemptsRef.current = 0;
+      setText(combinedTranscript);
+    };
+    recognition.onerror = (event) => {
+      if (event.error === "no-speech" && keepListeningRef.current) {
+        setError("Still listening. Speak clearly or press Stop and convert when finished.");
+        return;
+      }
+
+      keepListeningRef.current = false;
+      setIsListening(false);
+      setError(
+        event.error === "not-allowed"
+          ? "Microphone permission was blocked. Allow microphone access in the browser and try again."
+          : "I could not hear that clearly. Please try again or type the sentence.",
+      );
+    };
+    recognition.onend = () => {
+      if (keepListeningRef.current) {
+        if (restartAttemptsRef.current < 5) {
+          restartAttemptsRef.current += 1;
+          window.setTimeout(() => {
+            try {
+              recognition.start();
+            } catch {
+              setIsListening(false);
+            }
+          }, 250);
+          return;
+        }
+
+        keepListeningRef.current = false;
+        setIsListening(false);
+        setError("The microphone stopped automatically. Press Start mic again to continue.");
+        return;
+      }
+
+      setIsListening(false);
+      if (stopAndConvertRef.current) {
+        stopAndConvertRef.current = false;
+        void convert(transcriptRef.current);
+      }
+    };
+
+    recognitionRef.current = recognition;
+    keepListeningRef.current = true;
+    stopAndConvertRef.current = false;
+    transcriptRef.current = "";
+    finalTranscriptRef.current = "";
+    restartAttemptsRef.current = 0;
+    setText("");
     setError("");
     setIsListening(true);
     recognition.start();
@@ -156,10 +228,20 @@ export default function Home() {
               <p className="eyebrow">Input</p>
               <h2>Recognized speech or typed text</h2>
             </div>
-            <button type="button" className="ghost-button" onClick={startSpeechInput}>
-              {isListening ? "Listening..." : "Use mic"}
+            <button
+              type="button"
+              className={isListening ? "record-button active" : "record-button"}
+              onClick={isListening ? stopSpeechInput : startSpeechInput}
+            >
+              {isListening ? "Stop and convert" : "Start mic"}
             </button>
           </div>
+
+          {isListening ? (
+            <div className="listening-banner">
+              Listening live. Finish your sentence, then press <strong>Stop and convert</strong>.
+            </div>
+          ) : null}
 
           <textarea
             value={text}
@@ -245,7 +327,7 @@ export default function Home() {
         ) : (
           <div className="empty-state">
             <strong>No conversion yet</strong>
-            <span>Try “I want water” or use the microphone to begin.</span>
+            <span>Try "I want water" or use the microphone to begin.</span>
           </div>
         )}
       </section>
