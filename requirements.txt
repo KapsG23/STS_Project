@@ -1,0 +1,9 @@
+moonshine-voice
+vosk
+spacy
+nltk
+moviepy
+opencv-python
+pandas
+numpy
+streamlit
